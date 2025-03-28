@@ -1,0 +1,10 @@
+# idea
+.idea/
+*.iml
+
+# node
+node_modules/
+
+# nuxt
+.nuxt/
+.output/
