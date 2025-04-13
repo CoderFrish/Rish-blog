@@ -1,0 +1,13 @@
+@mixin backdrop-blur($blur) {
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur($blur);
+}
+
+@mixin clamp($clamp) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $clamp;
+  line-clamp: $clamp;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
