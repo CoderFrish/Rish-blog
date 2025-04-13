@@ -68,6 +68,7 @@ $(a+b)(a-b)=a^2-b^2$
               </div>
 
               <div class="w-full flex flex-wrap gap-2 items-center">
+                <el-tag>点赞：0</el-tag>
                 <el-tag>字数：0</el-tag>
                 <el-tag>评论：0</el-tag>
                 <el-tag>分类：{{ article.category }}</el-tag>
